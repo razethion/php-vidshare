@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bc20dd0b-f203-4e74-99f1-3b8e4699e7e6" name="toyp2-web0" url="https://toypics.zeth.pw">
+        <fileTransfer accessType="SFTP" host="172.232.25.73" port="22" sshConfigId="68e8caac-6361-4098-9d33-83352fd2e7c1" sshConfig="toyp2-web0" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="10efe649-1f64-4155-8780-ba65f14f5ff8" name="toyp2-web1" url="https://toypics.zeth.pw">
+        <fileTransfer accessType="SFTP" host="172.232.13.135" port="22" sshConfigId="f31bca32-5ff7-4117-921a-08693fb9d5e9" sshConfig="toyp2-web1" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ae58e9d4-e812-42be-b406-ae75fd084562" name="toyp2-rabbit4">
+        <fileTransfer accessType="SFTP" host="172.232.25.95" port="22" sshConfigId="cb801303-2d4d-4ea2-8b25-a65e141e7d06" sshConfig="toyp2-rabbit4" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="25cb872d-2764-4c1b-91b1-3eff52c305ce" name="toyp2-rabbit3">
+        <fileTransfer accessType="SFTP" host="172.232.25.96" port="22" sshConfigId="f75a0916-5d79-4b9f-bb1b-4cf36006118c" sshConfig="toyp2-rabbit3" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="30713494-3b98-42d9-b8db-9e20ad0f7b57" name="toyp2-rabbit2">
+        <fileTransfer accessType="SFTP" host="172.232.25.98" port="22" sshConfigId="acbffe47-e411-4c24-ac0e-d15a67b0944b" sshConfig="toyp2-rabbit2" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>prod</name>
+        <servers>
+          <name value="toyp2-web0" />
+          <name value="toyp2-web1" />
+          <name value="toyp2-rabbit4" />
+          <name value="toyp2-rabbit3" />
+          <name value="toyp2-rabbit2" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>

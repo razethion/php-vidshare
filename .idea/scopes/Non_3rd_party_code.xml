@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Non-3rd party code" pattern="file[toyp2]:*/&amp;&amp;!file[toyp2]:assets/vendor//*" />
+</component>

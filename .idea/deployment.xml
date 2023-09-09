@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="prod" createEmptyFolders="true" confirmBeforeUploading="false" showNewOnTargetInSync="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="toyp2-rabbit2">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/toypics/rabbit" local="$PROJECT_DIR$/rabbit" web="/rabbit" />
+            <mapping deploy="/var/www/toypics/includes" local="$PROJECT_DIR$/includes" web="/includes" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="toyp2-rabbit3">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/toypics/rabbit" local="$PROJECT_DIR$/rabbit" web="/rabbit" />
+            <mapping deploy="/var/www/toypics/includes" local="$PROJECT_DIR$/includes" web="/includes" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="toyp2-rabbit4">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/toypics/rabbit" local="$PROJECT_DIR$/rabbit" web="/rabbit" />
+            <mapping deploy="/var/www/toypics/includes" local="$PROJECT_DIR$/includes" web="/includes" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="toyp2-web0">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/toypics/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+            <excludedPath local="true" path="$PROJECT_DIR$/readme.md" />
+            <excludedPath local="true" path="$PROJECT_DIR$/rabbit/" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="toyp2-web1">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/toypics/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

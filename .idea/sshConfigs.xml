@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="172.232.25.126" id="1d2b4e30-f056-4012-a097-334e06dde522" keyPath="C:\Users\riley\.ssh\id_ed25519" port="22" customName="toyp2-mdb0" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="toyp2-mdb0" />
+      </sshConfig>
+      <sshConfig host="172.232.25.73" id="68e8caac-6361-4098-9d33-83352fd2e7c1" keyPath="C:\Users\riley\.ssh\id_ed25519" port="22" customName="toyp2-web0" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="toyp2-web0" />
+      </sshConfig>
+      <sshConfig host="172.232.25.98" id="acbffe47-e411-4c24-ac0e-d15a67b0944b" keyPath="C:\Users\riley\.ssh\id_ed25519" port="22" customName="toyp2-rabbit2" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="toyp2-rabbit2" />
+      </sshConfig>
+      <sshConfig host="172.232.25.96" id="f75a0916-5d79-4b9f-bb1b-4cf36006118c" keyPath="C:\Users\riley\.ssh\id_ed25519" port="22" customName="toyp2-rabbit3" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="toyp2-rabbit3" />
+      </sshConfig>
+      <sshConfig host="172.232.25.95" id="cb801303-2d4d-4ea2-8b25-a65e141e7d06" keyPath="C:\Users\riley\.ssh\id_ed25519" port="22" customName="toyp2-rabbit4" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="toyp2-rabbit4" />
+      </sshConfig>
+      <sshConfig host="172.232.13.135" id="f31bca32-5ff7-4117-921a-08693fb9d5e9" keyPath="C:\Users\riley\.ssh\id_ed25519" port="22" customName="toyp2-web1" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="toyp2-web1" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

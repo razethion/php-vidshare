@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME} u/
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ u/index.php [QSA,L]
+
+    RewriteCond %{REQUEST_FILENAME} settings/
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ settings/index.php [QSA,L]
+</IfModule>
